@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <!-- 				Name: 				Yojana Vilas Patil
+      Class Account #:	jadrn040
+      REDID:				819676514
+      Project #3									-->
+   <head>
+      <title>Shopify DVD</title>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+      <script type="text/javascript" src="/jquery/jquery.js"></script>
+      <link rel="stylesheet" type="text/css" href="proj3.css"/>
+      <link rel="stylesheet" type="text/css" href="order.css"/>
+      <script type="text/javascript" src="shopping_cart.js"></script>
+      <script type="text/javascript" src="proj3.js"></script> 
+      <!--  <script type="text/javascript" src="ajax_populate_page.js"></script> -->
+   </head>
+   <body>
+      <div class="banner">
+         <div class="header">
+            <div class="flag" ></div>
+         </div>
+         <div id="counter">
+            <a href="shopping_cart.html">  
+            <img id="cartimage" alt="cart_image" src="http://jadran.sdsu.edu/~jadrn040/proj1/images/cart.jpg" />
+            <b>
+            <span id="count">0</span>
+            </b>
+            </a>
+         </div>
+      </div>
+      <div class="clearfix">
+      </div>
+      <div id="cart"></div>
+      <div id ="check">
+         <a href="proj3.html"><input type="button" class="button" id="continue" value= "Continue Shopping" /></a>
+         <input type="button" class="button" id="checkout" value= "Checkout" />
+      </div>
+      <!-- The order form is not visible until the Order Now button is clicked -->
+      <div id="ordernow">
+         <form>
+            <fieldset>
+               <legend><b>Enter Email Address</legend>
+               <ul>
+                  <li><label class="grid" >Email Address<span>*</span></label>
+                     <input type="text" id="email" name="email" size="25" class='required'/>
+                  </li>
+               </ul>
+            </fieldset>
+            <fieldset>
+               <legend>Enter Billing Address</legend>
+               <ul>
+                  <li><label class="grid" >First Name<span>*</span></label>
+                     <input type="text" id="fname" name="fname" size="40" class='required' autofocus="autofocus" />
+                  </li>
+                  <li><label class="grid" >Last Name<span>*</span></label>
+                     <input type="text" id="lname" name="lname" size="40" class='required' autofocus="autofocus" />
+                  </li>
+                  <li><label class="grid" >Address<span>*</span></label>
+                     <input type="text" id="address" name="address" size="40" class='required'/>
+                  </li>
+                  <li><label class="grid" >Address2</label>
+                     <input type="text" id="address2" name="address2" size="40" />
+                  </li>
+                  <li>
+                     <label class="grid" >City<span>*</span></label>
+                     <input type="text" id="city"  name="city" size="25" class='required'/> 
+                  </li>
+                  <li>
+                     <label class="grid" >State<span>*</span></label>
+                     <input type="text" id="state"  name="state" size="2" class='required'/>  
+                  </li>
+                  <li>
+                     <label class="grid" >Zipcode<span>*</span></label>
+                     <input type="text" id="zipcode" name="zipcode" size="5" maxlength="5" class='required'/>
+                  </li>
+                  <li><label class="grid" >Phone<span>*</span></label>
+                     <input type="text" id="phoneb" name="phoneb" size="10" maxlength="10" class='required'/>
+                  </li>
+               </ul>
+            </fieldset>
+            <fieldset>
+               <legend>Enter Shipping Address</legend>
+               <input type="checkbox" id="checkbox1"/>Same As Shipping Address 
+               <ul>
+                  <li><label class="grid" >First Name<span>*</span></label>
+                     <input type="text" id="fname1" name="fname1" size="40" class='required' autofocus="autofocus" />
+                  </li>
+                  <li><label class="grid" >Last Name<span>*</span></label>
+                     <input type="text" id="lname1" name="lname1" size="40" class='required' autofocus="autofocus" />
+                  </li>
+                  <li><label class="grid" >Address<span>*</span></label>
+                     <input type="text" id="address11" name="address11" size="40" class='required'/>
+                  </li>
+                  <li><label class="grid" >Address2</label>
+                     <input type="text" id="address12" name="address12" size="40" />
+                  </li>
+                  <li>
+                     <label class="grid" >City<span>*</span></label>
+                     <input type="text" id="city1"  name="city1" size="25" class='required'/> 
+                  </li>
+                  <li>
+                     <label class="grid" >State<span>*</span></label>
+                     <input type="text" id="state1"  name="state1" size="2" class='required'/>  
+                  </li>
+                  <li>
+                     <label class="grid" >Zipcode<span>*</span></label>
+                     <input type="text" id="zipcode1" name="zipcode1" size="5" maxlength="5" class='required'/>
+                  </li>
+                  <li><label class="grid" >Phone<span>*</span></label>
+                     <input type="text" id="phones" name="phones" size="10" maxlength="10" class='required'/>
+                  </li>
+               </ul>
+            </fieldset>
+            <fieldset>
+               <legend>Make Payment</legend>
+               <ul>
+                  <li><label class="grid" >Payment Type<span>*</span></label>                       
+                     <input type="radio" name="pay"  id="pay1" value="Visa" /><label for="pay1"><img class="payimg" src="http://jadran.sdsu.edu/~jadrn040/proj1/images/visa.jpg" /></label>
+                     <input type="radio" name="pay"  id="pay2" value="Mastercard" /> <label for="pay2"><img class="payimg" src="http://jadran.sdsu.edu/~jadrn040/proj1/images/master.jpg" /></label>                        
+                     <input type="radio" name="pay"  id="pay3" value="Discover" /> <label for="pay3"><img class="payimg" src="http://jadran.sdsu.edu/~jadrn040/proj1/images/discover.jpg" /></label> 
+                     <input type="radio" name="pay"  id="pay4" value="american" /> <label for="pay4"><img class="payimg" src="http://jadran.sdsu.edu/~jadrn040/proj1/images/american.jpg" /></label>					 
+                  </li>
+                  <li>
+                     <label class="grid" >Credit Card #:<span>*</span></label>
+                     <input type="text" id="credit" name="credit" value="" size="19" maxlength="40" class='required'/>
+                  </li>
+                  <li>
+                     <label class="grid" >Expiry Date:<span>*</span></label>
+                     <SELECT NAME="CCExpiresMonth" id="CCExpiresMonth" class='required'>
+                        <OPTION VALUE="" SELECTED>Month
+                        <OPTION VALUE="01">01
+                        <OPTION VALUE="02">02
+                        <OPTION VALUE="03">03
+                        <OPTION VALUE="04">04
+                        <OPTION VALUE="05">05
+                        <OPTION VALUE="06">06
+                        <OPTION VALUE="07">07
+                        <OPTION VALUE="08">08
+                        <OPTION VALUE="09">09
+                        <OPTION VALUE="10">10
+                        <OPTION VALUE="11">11
+                        <OPTION VALUE="12">12
+                     </SELECT>
+                     <SELECT NAME="CCExpiresYear" id="CCExpiresYear" class='required'>
+                        <OPTION VALUE="" SELECTED>Year
+                        <OPTION VALUE="04">2016
+                        <OPTION VALUE="05">2017
+                        <OPTION VALUE="06">2018
+                        <OPTION VALUE="07">2019
+                        <OPTION VALUE="08">2020
+                        <OPTION VALUE="09">2021
+                        <OPTION VALUE="10">2022
+                        <OPTION VALUE="11">2023
+                        <OPTION VALUE="12">2024
+                        <OPTION VALUE="13">2025
+                        <OPTION VALUE="14">2026
+                        <OPTION VALUE="15">2027
+                     </SELECT>
+                  </li>
+               </ul>
+            </fieldset>
+            <div id="button_panel">  
+               <input type="reset"  class="button"/>
+               <input type="submit" class="button" value="Submit Order" id="submit_data" />		   
+            </div>
+            <div id="error_message"></div>
+            <div id="home1"><a href="index.html" id="home" >Go To Home</a></div>
+         </form>
+      </div>
+      </div>
+      </div>
+   </body>
+</html>

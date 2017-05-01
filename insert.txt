@@ -1,0 +1,65 @@
+BRR
+On Her Majestys Secret Service
+8.95
+16.99
+Just as Agent 007 finally discovers true love he is thrown into spectacular action and danger in this entertaining adventure that stars George Lazenby as the charismatic Bond.
+
+Airport: The Complete Collection
+21.95 31.98
+ a taut adaptation of Arthur Hailey's novel about a snowbound Chicago airport that must prepare for the arrival of a Boeing 707 passenger plane that's been damaged by a suicide bomber. 
+ 
+ 
+ insert into product values('BRR-002',4,7,'B3','Airport The Complete Collection','a taut adaptation of Arthur Haileys novel about a snowbound Chicago airport that must prepare for the arrival of a Boeing 707 passenger plane thats been damaged by a suicide bomber.',8.95,16.99,'BRR-002');
+
+ 
+ Spectre
+ A cryptic message from the past sends James Bond on a rogue mission to Mexico City and eventually Rome, where he meets Lucia Sciarra (Monica Bellucci), the beautiful and forbidden widow of an infamous criminal.
+ 11.95  19.99
+ 
+ 
+  insert into product values('BRR-003',4,8,'B4','Spectre','A cryptic message from the past sends James Bond on a rogue mission to Mexico City and eventually Rome where he meets Lucia Sciarra (Monica Bellucci) the beautiful and forbidden widow of an infamous criminal.',11.95,19.99,'BRR-003');
+ 
+ BST
+ 
+
+The Ten Commandments
+9.95 14.98
+This spectacular biblical epic from legendary showman Cecil B. DeMille tells the story of Moses from his infancy to the triumphant moment when he led the Israelites out of captivity in Egypt.
+
+insert into product values('BST-002',2,6,'S4','The Ten Commandments','This spectacular biblical epic from legendary showman Cecil B. DeMille tells the story of Moses from his infancy to the triumphant moment when he led the Israelites out of captivity in Egypt.',9.95,14.99,'BST-002');
+
+Harvey
+8.55 14.98
+James Stewart gives one of his finest performances in this lighthearted film, based on the Pulitzer Prize-winning play.Stewart stars as the good-natured Elwood P. Dowd, whose constant companion is Harvey, a six-foot tall rabbit that only he can see.
+
+insert into product values('BST-001',2,6,'S3','Harvey','James Stewart gives one of his finest performances in this lighthearted film, based on the Pulitzer Prize-winning play.Stewart stars as the good-natured Elwood P. Dowd whose constant companion is Harvey a six-foot tall rabbit that only he can see.',8.55,14.98,'BST-001');
+
+
+Tammy Triple Feature
+8.55 14.98
+"Tammy and the Bachelor" is the first entry in the "Tammy" series and stars Debbie Reynolds as the ever-cute and perky country gal, here falling in love with the wealthy pilot she nurses back to health after his plane crashes."
+
+
+insert into product values('BST-003',2,7,'S4','Tammy Triple Feature','Tammy and the Bachelor is the first entry in the Tammy series and stars Debbie Reynolds as the ever-cute and perky country gal here falling in love with the wealthy pilot she nurses back to health after his plane crashes.',8.55,14.98,'BST-003');
+
+NRS
+NRS-002
+Sunset Boulevard
+10.95 14.98
+Billy Wilder's classic drama stars Gloria Swanson as reclusive silent movie queen Norma Desmond. Sharing a mansion with her live-in butler/former director Max (Erich von Stroheim), Norma dreams of making a comeback.
+
+insert into product values('NRS-002',3,1,'N1','Sunset Boulevard','Billy Wilders classic drama stars Gloria Swanson as reclusive silent movie queen Norma Desmond. Sharing a mansion with her live-in butler/former director Max (Erich von Stroheim) Norma dreams of making a comeback.',10.95,14.98,'NRS-002');
+
+Roman Holiday
+5.15 9.98
+Audrey Hepburn won a Best Actress Academy Award for her role as Ann, a beautiful princess on a European publicity tour. During a stop in Rome, Ann sneaks away from her embassy, determined to see the Eternal City on her own terms.
+
+insert into product values('NRS-003',3,4,'N2','Roman Holiday','Audrey Hepburn won a Best Actress Academy Award for her role as Ann a beautiful princess on a European publicity tour. During a stop in Rome Ann sneaks away from her embassy determined to see the Eternal City on her own terms.',5.15,9.98,'NRS-003');
+
+
+War and Peace
+8.85 12.98
+This spectacular mounting of Tolstoy's classic novel was the first English-language adaptation realized for the silver screen. 
+
+
+insert into product values('NRS-004',3,5,'N3','War and Peace','This spectacular mounting of Tolstoys classic novel was the first English-language adaptation realized for the silver screen.',8.85,12.98,'NRS-004');
